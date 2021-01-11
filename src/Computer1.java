@@ -51,7 +51,7 @@ public class Computer1 {
             this.setSo(os);
             System.out.println("Se ha instalado Kali Linux correctamente. ");
         } else {
-            System.out.println("No hay suficiente espacio. ");
+            System.out.println("No hay espacio suficiente. ");
         }
     }
 

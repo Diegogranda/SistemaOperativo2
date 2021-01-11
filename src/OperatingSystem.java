@@ -89,8 +89,8 @@ public class OperatingSystem{
         }
     }
     public void uninstallsoftware (Software sw ,Computer1 c1){
-        c1.setRamMemory(c1.getRamMemory() + sw.getSoftwareRamMemoryRequierement());
-        c1.setHardDisk(c1.getHardDisk() + sw.getSoftwareSpaceRequirement());
-        this.osSoftwares.remove(sw);
+            c1.setRamMemory(c1.getRamMemory() + sw.getSoftwareRamMemoryRequierement());
+            c1.setHardDisk(c1.getHardDisk() + sw.getSoftwareSpaceRequirement());
+            this.osSoftwares.remove(sw);
     }
 }
